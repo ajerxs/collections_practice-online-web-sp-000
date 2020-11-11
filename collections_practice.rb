@@ -27,3 +27,11 @@ def reverse_array(array)
   nuarray = array.reverse
   nuarray
 end
+
+def kesha_maker(array)
+  nuarray = []
+  array.each do |word|
+    word[2] == $
+  end
+  nuarray
+end
