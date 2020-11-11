@@ -22,3 +22,8 @@ def swap_elements_from_to(array, index, destination_index)
   array[a], array[b] = array[b], array[a]
   array
 end
+
+def reverse_array(array)
+  nuarray = array.sort.reverse
+  nuarray
+end
