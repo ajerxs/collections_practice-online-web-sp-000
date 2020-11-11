@@ -48,3 +48,11 @@ def sum_array(array)
     sum + n
   end
 end
+
+def add_s(array)
+  array.each_with_index.collect do |element, index|
+    if array[1] || array[2..]
+      "#{element}" + "s"
+    end
+  end
+end
