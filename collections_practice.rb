@@ -7,7 +7,7 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array.sort do |words|
-    words.size
+  array.sort do |a,b|
+    a.size <=> b.size
   end
 end
